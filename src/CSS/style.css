@@ -1,0 +1,1310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*================================================== Navbar Section ===============================================  */
+
+.flag-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.search-input {
+    padding: 8px;
+    border-radius: 5px;
+    width: 125px;
+    height: 40px;
+    margin-top: 2px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+.search-button {
+    margin-bottom: 3px;
+    height: 40px;
+}
+
+/* ================================================== Home Section ==================================================== */
+
+.carousel-img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption .btn {
+    margin-bottom: 50px;
+}
+
+.carousel-caption h2 {
+    color: darkblue;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-caption p {
+    color: rgb(36, 36, 255);
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.carousel-img .btn {
+    background-color: darkblue;
+}
+
+.home-content-box-1 {
+    margin-bottom: 30px;
+}
+
+.home-content-box-1 h4 {
+    color: darkblue;
+    font-size: 22px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.home-content-box-1 .btn {
+    background-color: darkblue;
+    width: 90%;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 15px 0 15px 0;
+}
+
+.home-content-box-1 .btn:hover {
+    color: black;
+    /* Change text color on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /* Add a shadow effect */
+    transform: translateY(-3px);
+    /* Slightly lift the button on hover */
+}
+
+.home-help-caption {
+    width: 100%;
+    height: 280px;
+    border-radius: 0 0 20px 20px;
+    border: 1px solid #dddddd;
+}
+
+.home-help-caption:hover {
+    background-color: #f0f8ff;
+    /* Light blue background on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Elevates shadow on hover */
+    transform: scale(1.01);
+    /* Slightly enlarges the box */
+    border-radius: 2px 2px 20px 20px;
+}
+
+.home-help-content img {
+    border-radius: 20px 20px 0 0;
+}
+
+.home-help-caption .btn {
+    background-color: darkblue;
+    width: 100%;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.home-content-box-3 {
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+.home-content-box-3:hover {
+    background-color: #f0f8ff;
+    /* Light blue background on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Elevates shadow on hover */
+    transform: scale(1.01);
+    /* Slightly enlarges the box */
+}
+
+.home-content-box-3 h4 {
+    color: darkblue;
+    font-size: 22px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.home-content-box-3 li {
+    line-height: 25px;
+    color: rgb(88, 88, 88);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-content-box-3 .btn {
+    background-color: darkblue;
+    width: 100%;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.home-all-centers-content {
+    background-image: url('/Images/bg/home-bg-3.jpg');
+    width: 100%;
+    height: 500px;
+    background-position: center;
+}
+
+.home-center-button .btn {
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 2px solid #4892b2;
+}
+
+.home-center-button .btn:hover {
+    background-color: darkblue;
+    border: none;
+}
+
+.home-center-discription p {
+    font-size: 17px;
+    padding-bottom: 50px;
+}
+
+/*===================================================== About Section ================================================== */
+
+.about-hero-section {
+    background-image: url('/Images/bg/bg-2.jpg');
+    background-position: cover;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+}
+
+.about-hero-section h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: start;
+    color: darkblue;
+    text-shadow:
+
+
+        6px 6px 0 #ffffff52;
+    padding: 30px;
+}
+
+.about-img-1 {
+    width: 100%;
+    height: 360px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.about-info {
+    margin-top: 100px;
+}
+
+.team-members-1 {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(0, 0, 148);
+    margin-top: 30px;
+}
+
+.team-members-1 img {
+    width: 100%;
+}
+
+.team-members-1 h5 {
+    color: white;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.team-members-1 p {
+    color: #bbbbbb;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.team-members-1 figcaption {
+    padding: 15px;
+}
+
+.team-social-icons img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    text-align: bottom;
+}
+
+.team-social-icons img:hover {
+    transform: translateY(-5 px);
+    /* Move slightly upwards on hover */
+    box-shadow: 0px 10px 15px white transparent;
+    /* Add a subtle shadow */
+    transition: all 0.3s ease-in-out;
+    /* Smooth transition effect */
+}
+
+.team-members-1:hover {
+    transform: translateY(-8px);
+    /* Move slightly upwards on hover */
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+    /* Add a subtle shadow */
+    transition: all 0.3s ease-in-out;
+    /* Smooth transition effect */
+}
+
+/* for some photos */
+
+.team-members {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(0, 0, 148);
+    margin-top: 30px;
+}
+
+.team-members img {
+    width: 100%;
+}
+
+.team-members h5 {
+    color: white;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.team-members p {
+    color: #bbbbbb;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.team-members figcaption {
+    padding: 15px;
+}
+
+.team-social-icons img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    text-align: bottom;
+}
+
+.team-social-icons img:hover {
+    transform: translateY(-5 px);
+    /* Move slightly upwards on hover */
+    box-shadow: 0px 10px 15px white transparent;
+    /* Add a subtle shadow */
+    transition: all 0.3s ease-in-out;
+    /* Smooth transition effect */
+}
+
+.team-members:hover {
+    transform: translateY(-8px);
+    /* Move slightly upwards on hover */
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+    /* Add a subtle shadow */
+    transition: all 0.3s ease-in-out;
+    /* Smooth transition effect */
+}
+
+/*===================================================== Blog Section ================================================== */
+
+.blog-hero-section {
+    background-image: url('/Images/bg/blog-bg.jpg');
+    background-position: cover;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+}
+
+.blog-hero-section h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: left;
+    color: darkblue;
+    text-shadow:
+        6px 6px 0 #ffffff52;
+    padding: 30px;
+}
+
+.blog-card {
+    height: 460px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.blog-card img {
+    border-radius: 20px 20px 20px 20px;
+    width: 100%;
+    height: 200px;
+}
+
+.blog-caption h5 {
+    color: darkblue;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.blog-caption p small {
+    color: rgb(192, 192, 192);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.blog-caption p {
+    color: rgb(106, 106, 106);
+    font-size: 17px;
+}
+
+
+
+/* ================================================== Research start =========================================== */
+
+
+.research-hero-section {
+    background-image: url('/Images/bg/research-bg.jpg');
+    background-position: cover;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+}
+
+.research-hero-section h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: left;
+    color: darkblue;
+    text-shadow:
+        6px 6px 0 #ffffff52;
+    padding: 30px;
+}
+
+.research-info-content {
+    border-radius: 15px;
+    width: 100%;
+    height: 320px;
+    margin-top: 10px;
+    border: 2px solid rgb(234, 234, 234);
+}
+
+.research-info-content:hover {
+    background-color: rgb(0, 0, 161);
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease-in-out;
+}
+
+.research-info-content img {
+    border-radius: 15px 15px 0 0;
+}
+
+.research-content {
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.research-content h5 {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.research-content p {
+    color: rgb(86, 86, 86);
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/* =========================================== Contact Section ===================================== */
+
+.contact-info h3 {
+    color: darkblue;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.contact-info p {
+    color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+@media (min-width: 768px) {
+
+    .search-input {
+        width: 200px;
+    }
+
+    /* ================================================ Home start ==================================================== */
+
+    .carousel-caption .btn {
+        margin-bottom: 50px;
+    }
+
+    .carousel-caption h2 {
+        color: darkblue;
+        font-size: 36px;
+        font-weight: bolder;
+        padding-bottom: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .carousel-caption p {
+        color: rgb(36, 36, 255);
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+
+    .carousel-img .btn {
+        background-color: darkblue;
+    }
+
+    .home-content-box-1 h4 {
+        color: darkblue;
+        font-size: 22px;
+        font-weight: bolder;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    .home-content-box-1 .btn {
+        background-color: darkblue;
+        width: 90%;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        margin-top: 10px;
+        border-radius: 15px 0 15px 0;
+    }
+
+    .home-content-box-1 .btn:hover {
+        color: black;
+        /* Change text color on hover */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        /* Add a shadow effect */
+        transform: translateY(-3px);
+        /* Slightly lift the button on hover */
+    }
+
+    .home-help-caption {
+        width: 100%;
+        height: fit-content;
+        border-radius: 0 0 20px 20px;
+        border: 1px solid #dddddd;
+    }
+
+    .home-help-caption:hover {
+        background-color: #f0f8ff;
+        /* Light blue background on hover */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        /* Elevates shadow on hover */
+        transform: scale(1.01);
+        /* Slightly enlarges the box */
+        border-radius: 2px 2px 20px 20px;
+    }
+
+    .home-help-content img {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .home-help-caption .btn {
+        background-color: darkblue;
+        width: 100%;
+        color: white;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .home-content-box-3 {
+        margin-top: 50px;
+        border-radius: 20px;
+        padding: 30px;
+        text-align: center;
+        border: 1px solid #dddddd;
+    }
+
+    .home-content-box-3:hover {
+        background-color: #f0f8ff;
+        /* Light blue background on hover */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        /* Elevates shadow on hover */
+        transform: scale(1.01);
+        /* Slightly enlarges the box */
+    }
+
+    .home-content-box-3 h4 {
+        color: darkblue;
+        font-size: 22px;
+        font-weight: bolder;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+    }
+
+    .home-content-box-3 li {
+        line-height: 25px;
+        color: rgb(88, 88, 88);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .home-content-box-3 .btn {
+        background-color: darkblue;
+        width: 100%;
+        color: white;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .home-all-centers-content {
+        background-image: url('/Images/bg/home-bg-3.jpg');
+        width: 100%;
+        height: fit-content;
+        background-position: center;
+    }
+
+    .home-center-button .btn {
+        width: 100%;
+        height: 100px;
+        color: white;
+        font-weight: 600;
+        padding: 20px;
+        font-size: 18px;
+        margin-top: 10px;
+        border-radius: 3px;
+        background-color: transparent;
+        border: 2px solid #4892b2;
+    }
+
+    .home-center-button .btn:hover {
+        background-color: darkblue;
+        border: none;
+    }
+
+    .home-center-discription p {
+        font-size: 18px;
+        padding-bottom: 50px;
+    }
+
+    /* ================================================= About start ================================================== */
+
+    .about-hero-section {
+        background-image: url('/Images/bg/bg-2.jpg');
+        background-position: cover;
+        width: 100%;
+        height: 400px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .about-hero-section h1 {
+        font-size: 50px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: start;
+        color: darkblue;
+        padding: 30px;
+    }
+
+    .about-img-1 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .about-info {
+        margin-top: 100px;
+    }
+
+    .team-members-1 {
+        width: 100%;
+        height: 370px;
+        background-color: rgb(0, 0, 148);
+        margin-top: 30px;
+    }
+
+    .team-members-1 img {
+        width: 100%;
+    }
+
+    .team-members-1 h5 {
+        color: white;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .team-members-1 p {
+        color: #bbbbbb;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .team-members-1 figcaption {
+        padding: 15px;
+    }
+
+    .team-social-icons img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        text-align: bottom;
+    }
+
+
+    .team-members {
+        width: 100%;
+        height: 370px;
+        background-color: rgb(0, 0, 148);
+        margin-top: 30px;
+    }
+
+    .team-members img {
+        width: 100%;
+    }
+
+    .team-members h5 {
+        color: white;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .team-members p {
+        color: #bbbbbb;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .team-members figcaption {
+        padding: 15px;
+    }
+
+    .team-social-icons img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        text-align: bottom;
+    }
+
+    .team-social-icons img:hover {
+        transform: translateY(-5 px);
+        /* Move slightly upwards on hover */
+        box-shadow: 0px 10px 15px black transparent;
+        /* Add a subtle shadow */
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition effect */
+    }
+
+    .team-members-1:hover {
+        transform: translateY(-8px);
+        /* Move slightly upwards on hover */
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+        /* Add a subtle shadow */
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition effect */
+    }
+
+    .team-members:hover {
+        transform: translateY(-8px);
+        /* Move slightly upwards on hover */
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+        /* Add a subtle shadow */
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition effect */
+    }
+
+
+    /* ================================================= About End ==================================================== */
+
+
+    /* ================================================= Blog Start =================================================== */
+
+    .blog-card {
+        height: 550px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+        box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .blog-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .blog-card img {
+        border-radius: 20px 20px 20px 20px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .blog-caption h5 {
+        color: darkblue;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .blog-caption p small {
+        color: rgb(192, 192, 192);
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .blog-caption p {
+        color: rgb(106, 106, 106);
+        font-size: 16px;
+    }
+
+    /* ================================================= Blog End ===================================================== */
+
+
+    /* ================================================ Researches start ============================================== */
+
+    .research-hero-section {
+        background-image: url('/Images/bg/research-bg.jpg');
+        background-position: cover;
+        width: 100%;
+        height: 400px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .research-hero-section h1 {
+        font-size: 45px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: left;
+        color: darkblue;
+        text-shadow:
+            6px 6px 0 #ffffff52;
+        padding: 30px;
+    }
+
+    .research-info-content {
+        border-radius: 15px;
+        width: 100%;
+        height: 280px;
+        margin-top: 10px;
+        border: 2px solid rgb(234, 234, 234);
+    }
+
+    .research-info-content:hover {
+        background-color: rgb(0, 0, 161);
+        transform: translateY(-8px);
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .research-info-content img {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .research-content {
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .research-content h5 {
+        color: darkblue;
+        font-weight: bold;
+    }
+
+    .research-content p {
+        color: rgb(86, 86, 86);
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    /* ================================================ Researches End ==================================================== */
+
+    /* ================================================ Contact Start ================================================== */
+
+    .contact-info h3 {
+        color: darkblue;
+        font-weight: bolder;
+        padding-bottom: 10px;
+    }
+
+    .contact-info p {
+        color: #555;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    /* ================================================ Contact End ================================================== */
+
+}
+
+@media (min-width: 992px) {
+
+    .search-input {
+        width: 300px;
+    }
+
+    /* ================================================ Home start ==================================================== */
+    .carousel-caption .btn {
+        margin-bottom: 50px;
+    }
+
+    .carousel-caption h2 {
+        color: darkblue;
+        font-size: 36px;
+        font-weight: bolder;
+        padding-bottom: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .carousel-caption p {
+        color: rgb(36, 36, 255);
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+
+    .carousel-img .btn {
+        background-color: darkblue;
+    }
+
+    .home-content-box-1 h4 {
+        color: darkblue;
+        font-size: 22px;
+        font-weight: bolder;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    .home-content-box-1 .btn {
+        background-color: darkblue;
+        width: 90%;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        margin-top: 10px;
+        border-radius: 15px 0 15px 0;
+    }
+
+    .home-content-box-1 .btn:hover {
+        color: black;
+        /* Change text color on hover */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        /* Add a shadow effect */
+        transform: translateY(-3px);
+        /* Slightly lift the button on hover */
+    }
+
+    .home-help-caption {
+        width: 100%;
+        height: 280px;
+        border-radius: 0 0 20px 20px;
+        border: 1px solid #dddddd;
+    }
+
+    .home-help-caption:hover {
+        background-color: #f0f8ff;
+        /* Light blue background on hover */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        /* Elevates shadow on hover */
+        transform: scale(1.01);
+        /* Slightly enlarges the box */
+        border-radius: 2px 2px 20px 20px;
+    }
+
+    .home-help-content img {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .home-help-caption .btn {
+        background-color: darkblue;
+        width: 100%;
+        color: white;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .home-content-box-3 {
+        margin-top: 50px;
+        border-radius: 20px;
+        padding: 30px;
+        text-align: center;
+        border: 1px solid #dddddd;
+    }
+
+    .home-content-box-3:hover {
+        background-color: #f0f8ff;
+        /* Light blue background on hover */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        /* Elevates shadow on hover */
+        transform: scale(1.01);
+        /* Slightly enlarges the box */
+    }
+
+    .home-content-box-3 h4 {
+        color: darkblue;
+        font-size: 22px;
+        font-weight: bolder;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+    }
+
+    .home-content-box-3 li {
+        line-height: 25px;
+        color: rgb(88, 88, 88);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .home-content-box-3 .btn {
+        background-color: darkblue;
+        width: 100%;
+        color: white;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .home-all-centers-content {
+        background-image: url('/Images/bg/home-bg-3.jpg');
+        width: 100%;
+        height: fit-content;
+        background-position: center;
+    }
+
+    .home-center-button .btn {
+        width: 100%;
+        height: 100px;
+        color: white;
+        font-weight: 600;
+        padding: 20px;
+        font-size: 18px;
+        margin-top: 10px;
+        border-radius: 3px;
+        background-color: transparent;
+        border: 2px solid #4892b2;
+    }
+
+    .home-center-button .btn:hover {
+        background-color: darkblue;
+        border: none;
+    }
+
+    .home-center-discription p {
+        font-size: 18px;
+        padding-bottom: 50px;
+    }
+
+    /* ================================================== Home End ====================================================== */
+
+
+    /* ================================================== About start ==================================================== */
+    .about-hero-section {
+        background-image: url('/Images/bg/bg-2.jpg');
+        background-position: cover;
+        width: 100%;
+        height: 400px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .about-hero-section h1 {
+        font-size: 50px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: start;
+        color: darkblue;
+        padding: 30px;
+    }
+
+    .about-img-1 {
+        width: 90%;
+        height: 380px;
+    }
+
+    .about-info {
+        margin-top: 100px;
+    }
+
+    .team-members-1 {
+        width: 100%;
+        height: 460px;
+        background-color: rgb(0, 0, 148);
+        margin-top: 30px;
+    }
+
+    .team-members-1 img {
+        width: 100%;
+        height: 262px;
+        object-fit: cover;
+    }
+
+    .team-members-1 h5 {
+        color: white;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .team-members-1 p {
+        color: #bbbbbb;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .team-members-1 figcaption {
+        padding: 15px;
+    }
+
+    .team-social-icons img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        text-align: bottom;
+    }
+
+
+    .team-members {
+        width: 100%;
+        height: 460px;
+        background-color: rgb(0, 0, 148);
+        margin-top: 30px;
+    }
+
+    .team-members img {
+        width: 100%;
+    }
+
+    .team-members h5 {
+        color: white;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .team-members p {
+        color: #bbbbbb;
+        font-weight: bold;
+        font-size: 14px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .team-members figcaption {
+        padding: 15px;
+    }
+
+    .team-social-icons img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        text-align: bottom;
+    }
+
+    .team-social-icons img:hover {
+        transform: translateY(-5 px);
+        /* Move slightly upwards on hover */
+        box-shadow: 0px 10px 15px black transparent;
+        /* Add a subtle shadow */
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition effect */
+    }
+
+    .team-members-1:hover {
+        transform: translateY(-8px);
+        /* Move slightly upwards on hover */
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+        /* Add a subtle shadow */
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition effect */
+    }
+
+    .team-members:hover {
+        transform: translateY(-8px);
+        /* Move slightly upwards on hover */
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+        /* Add a subtle shadow */
+        transition: all 0.3s ease-in-out;
+        /* Smooth transition effect */
+    }
+
+    /* ================================================== About end ==================================================== */
+
+
+    /* ================================================== blog start ==================================================== */
+
+    .blog-hero-section {
+        background-image: url('/Images/bg/blog-bg.jpg');
+        background-position: cover;
+        width: 100%;
+        height: 400px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .blog-hero-section h1 {
+        font-size: 50px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: left;
+        color: rgb(0, 60, 255);
+        text-shadow:
+            2px 2px 0 #000;
+        padding: 30px;
+    }
+
+    .blog-card {
+        height: 460px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+        box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .blog-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .blog-card img {
+        border-radius: 20px 20px 20px 20px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .blog-caption h5 {
+        color: darkblue;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .blog-caption p small {
+        color: rgb(192, 192, 192);
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .blog-caption p {
+        color: rgb(106, 106, 106);
+        font-size: 17px;
+    }
+
+    /* ================================================== blog end ==================================================== */
+
+    /* ================================================= Research start =============================================== */
+
+    .research-hero-section {
+        background-image: url('/Images/bg/research-bg.jpg');
+        background-position: cover;
+        width: 100%;
+        height: 400px;
+        align-items: center;
+        align-content: center;
+    }
+
+    .research-hero-section h1 {
+        font-size: 45px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: left;
+        color: darkblue;
+        text-shadow:
+            6px 6px 0 #ffffff52;
+        padding: 30px;
+    }
+
+    .research-info-content {
+        border-radius: 15px;
+        width: 100%;
+        height: fit-content;
+        margin-top: 10px;
+        border: 2px solid rgb(234, 234, 234);
+    }
+
+    .research-info-content:hover {
+        background-color: rgb(0, 0, 161);
+        transform: translateY(-8px);
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .research-info-content img {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .research-content {
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .research-content h5 {
+        color: darkblue;
+        font-weight: bold;
+    }
+
+    .research-content p {
+        color: rgb(86, 86, 86);
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    /* ================================================= Research end =============================================== */
+
+    /* ================================================== Contact start ================================================== */
+
+    .contact-info h3 {
+        color: darkblue;
+        font-weight: bolder;
+        padding-bottom: 10px;
+    }
+
+    .contact-info p {
+        color: #555;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    iframe {
+        width: 100%;
+        height: 420px;
+    }
+
+    /* ================================================== Contact end ================================================== */
+
+}
